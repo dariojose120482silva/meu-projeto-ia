@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/src/main/resources/static/img/imagem-favicon.png">
+</head>
+<body>
+    <div class="image-container">
+        <img src="../resources/static/img/imagem-favicon.png" alt="Gemini" class="underwater-image">
+    </div>
+    <header></header>
+    <div class="container-logo-h1">
+        <img src="../resources/static/img/imagem-favicon.png" alt="Logo" class="logo">
+        <h1>Olá, poço ajuda!</h1>
+    </div>
+    <main class="main-container">
+        <form id="form-ia">
+            <label class="label-texto" for="texto">Digite seu texto:</label>
+            <div class="input-button">
+                <input type="text" placeholder="Precisa de ajuda!" id="texto" name="texto" required>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <div id="resultado">
+            <!-- Resultado da IA será exibido aqui -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
